@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Édition de fichier</title>
+</head>
+<body>
+    <h1>Édition du fichier : {{ path }}</h1>
+    
+    <form action="{{ url_for('edit_file', path=path) }}" method="post">
+        <textarea name="content" rows="20" cols="80">{{ content }}</textarea><br>
+        <button type="submit">Enregistrer</button>
+    </form>
+
+    <br>
+    <a href="{{ url_for('browse', path=path.rsplit('/', 1)[0]) }}">⬅️ Retour</a>
+</body>
+</html>
