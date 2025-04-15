@@ -10,3 +10,9 @@ Run
 Go to url
 `http://localhost:8084/`<br>
 User : admin, Password : admin 
+
+<div style="position: relative; width: 300px; height: 300px;">
+  <img src="Capture du 2025-04-15 16-23-13.png" style="position: absolute; top: 0; left: 0; width: 300px; height: 300px;" />
+  <img src="Capture du 2025-04-15 16-23-23.png" style="position: absolute; top: 0; left: 0; width: 300px; height: 300px;" />
+  <img src="Capture du 2025-04-15 16-23-35.png" style="position: absolute; top: 0; left: 0; width: 300px; height: 300px;" />
+</div>
