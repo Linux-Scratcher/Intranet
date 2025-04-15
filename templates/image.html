@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Galerie d'images</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px;">
+        {% for image in image_files %}
+            <div>
+                <a href="{{ url_for('serve_image', filename=image) }}" target="_blank">
+                    <img src="{{ url_for('serve_image', filename=image) }}" style="max-width: 100%;">
+                </a>
+                <p>{{ image }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

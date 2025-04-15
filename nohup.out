@@ -1,0 +1,2432 @@
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 816-010-443
+192.168.1.25 - - [13/Feb/2025 21:28:03] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [14/Feb/2025 07:15:48] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [14/Feb/2025 07:15:53] "GET /browse/etc HTTP/1.1" 404 -
+192.168.1.25 - - [14/Feb/2025 07:15:56] "GET /browse/etc/tor HTTP/1.1" 404 -
+192.168.1.25 - - [14/Feb/2025 07:16:01] "GET /browse/tor HTTP/1.1" 404 -
+192.168.1.25 - - [14/Feb/2025 07:16:04] "GET /browse/.local HTTP/1.1" 200 -
+192.168.1.25 - - [14/Feb/2025 12:35:38] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [14/Feb/2025 12:35:41] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:06:07] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:06:07] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [15/Feb/2025 10:06:10] "GET /browse/client HTTP/1.1" 404 -
+192.168.1.25 - - [15/Feb/2025 10:06:11] "GET /browse/clients HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:06:15] "GET /edit/clients/Noe.py HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:06:56] "GET /browse/clients HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:06:59] "GET /edit/clients/Noe HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/clients/Noe'
+192.168.1.25 - - [15/Feb/2025 10:07:00] "GET /edit/clients/Noe?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:07:00] "GET /edit/clients/Noe?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:07:00] "GET /edit/clients/Noe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:07:00] "GET /edit/clients/Noe?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:07:03] "GET /browse/clients/Noe HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:07:05] "GET /edit/clients/Noe/Noe.py HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:07:13] "GET /browse/clients/Dream HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:09:42] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [15/Feb/2025 10:09:48] "GET /browse/clients/Dream HTTP/1.1" 200 -
+python3: can't open file '/home/gianni/Intranet/app.py': [Errno 2] No such file or directory
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-615-448
+192.168.1.25 - - [22/Feb/2025 19:17:21] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:17:21] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:17:22] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [22/Feb/2025 19:17:29] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:17:31] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:18:05] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:18:07] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:21:02] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:23:38] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:23:39] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [22/Feb/2025 19:23:42] "GET /browse/DoxBin/ HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:23:43] "GET /edit/DoxBin//app.py HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:24:04] "GET /edit/DoxBin//app.py HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:26:07] "POST /edit/DoxBin//app.py HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:26:07] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:26:11] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:26:12] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:26:25] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:26:26] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:26:27] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:26:37] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:26:37] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:26:39] "GET /browse/DoxBin/ HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:26:41] "GET /edit/DoxBin//app.py HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:26:47] "POST /edit/DoxBin//app.py HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:26:47] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:30:03] "GET /browse/DoxBin/ HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:30:06] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:30:07] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:30:15] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:30:15] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:30:53] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:32:17] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:32:18] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:32:40] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:32:40] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:32:53] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:33:01] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:33:01] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:41:28] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:44:39] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:44:39] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:47:01] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:49:04] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:49:05] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:49:29] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:49:38] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:49:38] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:56:37] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:56:42] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:56:42] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:57:09] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:57:15] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:57:15] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:58:42] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:58:47] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:58:47] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:59:07] "POST /delete/DoxBin/templates/tos.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:59:07] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:59:19] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 19:59:24] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 19:59:24] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:00:33] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:02:10] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:02:16] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 20:02:16] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:02:31] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:02:38] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 20:02:38] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:07:53] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 20:07:53] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:07:59] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:08:02] "GET /edit/DoxBin/templates/admin.html HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:11:23] "POST /edit/DoxBin/templates/admin.html HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 20:11:23] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:12:18] "GET /browse/DoxBin/ HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:12:20] "GET /edit/DoxBin//app.py HTTP/1.1" 200 -
+192.168.1.25 - - [22/Feb/2025 20:13:47] "POST /edit/DoxBin//app.py HTTP/1.1" 302 -
+192.168.1.25 - - [22/Feb/2025 20:13:47] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 10:08:00] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [23/Feb/2025 10:08:01] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 10:08:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [23/Feb/2025 10:08:12] "POST /delete/vanapost HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 59, in delete_file
+    os.remove(full_path)
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/vanapost'
+192.168.1.25 - - [23/Feb/2025 10:08:13] "GET /delete/vanapost?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 10:08:13] "GET /delete/vanapost?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 10:08:13] "GET /delete/vanapost?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 10:08:13] "GET /delete/vanapost?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 10:08:25] "POST /delete/vanapost HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 59, in delete_file
+    os.remove(full_path)
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/vanapost'
+192.168.1.25 - - [23/Feb/2025 10:08:25] "GET /delete/vanapost?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+192.168.1.25 - - [23/Feb/2025 10:08:25] "GET /delete/vanapost?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+192.168.1.25 - - [23/Feb/2025 10:08:25] "GET /delete/vanapost?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+192.168.1.25 - - [23/Feb/2025 10:08:39] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:35:03] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [23/Feb/2025 16:35:03] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:35:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [23/Feb/2025 16:35:10] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:35:12] "GET /edit/DoxBin/data/comments/.Goumi's%20Dox.json.swp HTTP/1.1" 302 -
+192.168.1.25 - - [23/Feb/2025 16:35:12] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:35:19] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:35:24] "GET /edit/DoxBin/data/comments/.Goumi's%20Dox.json.swp HTTP/1.1" 302 -
+192.168.1.25 - - [23/Feb/2025 16:35:24] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:35:25] "GET /edit/DoxBin/data/comments/.Goumi's%20Dox.json.swp HTTP/1.1" 302 -
+192.168.1.25 - - [23/Feb/2025 16:35:25] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:35:26] "GET /edit/DoxBin/data/comments/.Goumi's%20Dox.json.swp HTTP/1.1" 302 -
+192.168.1.25 - - [23/Feb/2025 16:35:26] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:35:32] "GET /edit/DoxBin/data/comments/Goumi's%20Dox.json HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:36:09] "POST /edit/DoxBin/data/comments/Goumi's%20Dox.json HTTP/1.1" 302 -
+192.168.1.25 - - [23/Feb/2025 16:36:09] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:36:15] "POST /delete/DoxBin/data/comments/Goumi's%20Dox.json HTTP/1.1" 302 -
+192.168.1.25 - - [23/Feb/2025 16:36:15] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:36:15] "POST /delete/DoxBin/data/comments/.Goumi's%20Dox.json.swp HTTP/1.1" 302 -
+192.168.1.25 - - [23/Feb/2025 16:36:15] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [23/Feb/2025 16:53:20] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 738-249-775
+192.168.1.25 - - [24/Feb/2025 08:10:22] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 08:10:22] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 08:10:23] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:10:23] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [24/Feb/2025 08:10:33] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:10:35] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:14:15] "POST /edit/DoxBin/app.py HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 08:14:15] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:14:17] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:27:29] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 08:27:29] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:27:29] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [24/Feb/2025 08:27:35] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:27:37] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:28:41] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 08:28:41] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:29:01] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:29:09] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 08:29:09] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:29:12] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:29:40] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:31:18] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 08:31:18] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:32:17] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:33:28] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 08:33:28] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:33:45] "GET /edit/DoxBin/templates/post.html HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 08:33:50] "POST /edit/DoxBin/templates/post.html HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 08:33:50] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 09:52:46] "GET /auth HTTP/1.1" 404 -
+192.168.1.25 - - [24/Feb/2025 09:52:47] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [24/Feb/2025 09:58:56] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 09:58:56] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 09:59:00] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 09:59:05] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 09:59:07] "GET /edit/DoxBin/templates/index.html HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 09:59:45] "POST /edit/DoxBin/templates/index.html HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 09:59:45] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 10:04:13] "GET /browse/DoxBin/templates HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 942-243-999
+192.168.1.25 - - [24/Feb/2025 14:42:35] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 14:42:38] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:42:38] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [24/Feb/2025 14:42:45] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:42:46] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:43:57] "POST /edit/DoxBin/app.py HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 14:43:57] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:45:38] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:47:13] "POST /edit/DoxBin/app.py HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 14:47:13] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:49:40] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:51:07] "POST /edit/DoxBin/app.py HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 14:51:07] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:58:30] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 14:58:30] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:58:30] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [24/Feb/2025 14:58:34] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 14:58:35] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:02:11] "POST /edit/DoxBin/app.py HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 15:02:11] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:04:05] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:04:30] "GET /browse/DoxBin/data HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:04:34] "GET /edit/DoxBin/data/access_log.json HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:04:40] "GET /edit/DoxBin/data/access_log.json HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:26:09] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [24/Feb/2025 15:26:09] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:26:10] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [24/Feb/2025 15:26:17] "GET /browse/DoxBin/data HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:26:18] "GET /edit/DoxBin/data/access_log.json HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:26:29] "GET /edit/DoxBin/data/access_log.json HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:26:39] "GET /edit/DoxBin/data/access_log.json HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:27:24] "GET /edit/DoxBin/data/access_log.json HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:27:32] "GET /edit/DoxBin/data/access_log.json HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:27:34] "GET /edit/DoxBin/data/access_log.json HTTP/1.1" 200 -
+192.168.1.25 - - [24/Feb/2025 15:27:35] "GET /edit/DoxBin/data/access_log.json HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 00:33:08] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [25/Feb/2025 00:33:08] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 00:33:09] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [25/Feb/2025 00:33:12] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 00:33:13] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 00:59:15] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [25/Feb/2025 00:59:15] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 00:59:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [25/Feb/2025 00:59:19] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 00:59:21] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:02:17] "POST /edit/DoxBin/app.py HTTP/1.1" 302 -
+192.168.1.25 - - [25/Feb/2025 01:02:17] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:03:13] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:54:02] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [25/Feb/2025 01:54:02] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:54:02] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [25/Feb/2025 01:54:06] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:54:12] "GET /browse/DoxBin/data HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:54:17] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:54:23] "GET /edit/DoxBin/data/comments/.Règlement%20de%20Torbin.json.swp HTTP/1.1" 302 -
+192.168.1.25 - - [25/Feb/2025 01:54:23] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:54:34] "POST /delete/DoxBin/data/comments/.Règlement%20de%20Torbin.json.swp HTTP/1.1" 302 -
+192.168.1.25 - - [25/Feb/2025 01:54:34] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:54:40] "GET /edit/DoxBin/data/comments/fdp.json HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:55:18] "GET /edit/DoxBin/data/comments/Règlement%20de%20Torbin.json HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:55:34] "POST /edit/DoxBin/data/comments/Règlement%20de%20Torbin.json HTTP/1.1" 302 -
+192.168.1.25 - - [25/Feb/2025 01:55:34] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:55:42] "GET /edit/DoxBin/data/comments/Règlement%20de%20Torbin.json HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:55:47] "POST /edit/DoxBin/data/comments/Règlement%20de%20Torbin.json HTTP/1.1" 302 -
+192.168.1.25 - - [25/Feb/2025 01:55:47] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [25/Feb/2025 01:55:52] "POST /delete/DoxBin/data/comments/Règlement%20de%20Torbin.json HTTP/1.1" 302 -
+192.168.1.25 - - [25/Feb/2025 01:55:52] "GET /browse/DoxBin/data/comments HTTP/1.1" 200 -
+192.168.1.25 - - [26/Feb/2025 17:18:54] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [26/Feb/2025 17:18:55] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [26/Feb/2025 17:18:55] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [26/Feb/2025 17:19:01] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [26/Feb/2025 17:19:02] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [26/Feb/2025 17:22:25] "GET /browse/ HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 799-450-569
+192.168.1.25 - - [26/Feb/2025 19:25:43] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [26/Feb/2025 19:25:43] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [26/Feb/2025 19:25:43] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [26/Feb/2025 19:26:19] "GET /browse/etherpad-lite HTTP/1.1" 200 -
+192.168.1.25 - - [26/Feb/2025 19:27:22] "GET /browse/etherpad-lite HTTP/1.1" 404 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 652-082-510
+192.168.1.25 - - [27/Feb/2025 16:42:45] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [27/Feb/2025 16:42:45] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 16:42:45] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [27/Feb/2025 16:43:19] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 19:09:37] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 19:09:38] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [27/Feb/2025 19:09:41] "GET /browse/vanano HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 19:09:45] "GET /browse/vanano/static HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 19:09:48] "GET /browse/vanano/static/uploads HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 19:09:56] "GET /edit/vanano/templates HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/vanano/templates'
+192.168.1.25 - - [27/Feb/2025 19:09:57] "GET /edit/vanano/templates?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 19:09:57] "GET /edit/vanano/templates?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 19:09:57] "GET /edit/vanano/templates?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 19:09:57] "GET /edit/vanano/templates?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+192.168.1.25 - - [27/Feb/2025 19:10:00] "GET /browse/vanano/templates HTTP/1.1" 200 -
+192.168.1.25 - - [27/Feb/2025 19:10:03] "GET /edit/vanano/templates/index.html HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 208-970-474
+192.168.1.25 - - [28/Feb/2025 09:42:08] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 09:42:09] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [28/Feb/2025 09:42:13] "GET /browse/DoxBin HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 09:42:14] "GET /edit/DoxBin/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 11:24:27] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 11:24:34] "GET /browse/raiddiscord.py HTTP/1.1" 302 -
+192.168.1.25 - - [28/Feb/2025 11:24:34] "GET /edit/raiddiscord.py HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/home/gianni/Intranet/script.py", line 1, in <module>
+    from flask import Flask, request, render_template, redirect, url_for
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "/home/gianni/Intranet/script.py", line 1, in <module>
+    from flask import Flask, request, render_template, redirect, url_for
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 625-875-059
+192.168.1.25 - - [28/Feb/2025 15:23:47] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:23:47] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [28/Feb/2025 15:23:51] "GET /browse/clients/Noe HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:23:52] "GET /edit/clients/Noe/Noe.py HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:26:59] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:34:56] "GET /edit/clients/Noe/Noe.py HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:39:52] "GET /edit/clients/Noe/Noe.py HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:40:26] "GET /edit/clients/Noe/Noe.py HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gianni/clients/Noe/Noe.py'
+192.168.1.25 - - [28/Feb/2025 15:40:27] "GET /edit/clients/Noe/Noe.py?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:40:27] "GET /edit/clients/Noe/Noe.py?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:40:27] "GET /edit/clients/Noe/Noe.py?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:40:30] "GET /edit/clients/Noe/Noe.py HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gianni/clients/Noe/Noe.py'
+192.168.1.25 - - [28/Feb/2025 15:40:30] "GET /edit/clients/Noe/Noe.py?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+192.168.1.25 - - [28/Feb/2025 15:40:30] "GET /edit/clients/Noe/Noe.py?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+192.168.1.25 - - [28/Feb/2025 15:40:30] "GET /edit/clients/Noe/Noe.py?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+192.168.1.25 - - [28/Feb/2025 15:40:31] "GET /browse/clients/Noe HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:42:21] "GET /browse/clients/Noe HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:51:07] "GET /edit/clients/Noe/Noe.py HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:51:50] "POST /edit/clients/Noe/Noe.py HTTP/1.1" 302 -
+192.168.1.25 - - [28/Feb/2025 15:51:50] "GET /browse/clients/Noe HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:53:47] "GET /edit/clients/Noe/Noe.py HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:54:13] "POST /edit/clients/Noe/Noe.py HTTP/1.1" 302 -
+192.168.1.25 - - [28/Feb/2025 15:54:13] "GET /browse/clients/Noe HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:56:34] "GET /edit/clients/Noe/Noe.py HTTP/1.1" 200 -
+192.168.1.25 - - [28/Feb/2025 15:57:03] "POST /edit/clients/Noe/Noe.py HTTP/1.1" 302 -
+192.168.1.25 - - [28/Feb/2025 15:57:03] "GET /browse/clients/Noe HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 543-832-296
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 543-832-296
+192.168.1.25 - - [07/Mar/2025 20:06:00] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [07/Mar/2025 20:06:00] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [07/Mar/2025 20:06:01] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [07/Mar/2025 20:06:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [07/Mar/2025 20:06:14] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.25 - - [07/Mar/2025 20:06:15] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.25 - - [07/Mar/2025 21:52:49] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [07/Mar/2025 21:52:50] "GET /browse/ HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 673-723-667
+192.168.1.25 - - [12/Mar/2025 16:08:26] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 16:08:27] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:08:28] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [12/Mar/2025 16:09:02] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:09:05] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:12:48] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:21:25] "POST /edit/nyapi/app.py HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 16:21:25] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:26:27] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:26:28] "GET /edit/nyapi/templates/register.html HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:30:10] "POST /edit/nyapi/templates/register.html HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 16:30:10] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:31:27] "GET /edit/nyapi/templates/register.html HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:31:39] "POST /edit/nyapi/templates/register.html HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 16:31:39] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:33:58] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:34:00] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:35:07] "GET /edit/nyapi/templates/register.html HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:35:14] "POST /edit/nyapi/templates/register.html HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 16:35:14] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:35:24] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:35:26] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:35:46] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 16:35:46] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 16:37:48] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:02:54] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 17:02:54] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:02:58] "GET /browse/templates HTTP/1.1" 404 -
+192.168.1.25 - - [12/Mar/2025 17:03:03] "GET /browse/nyapi/ HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:03:10] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:03:11] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:03:17] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:03:19] "GET /edit/nyapi/templates/index.html HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:03:21] "GET /edit/nyapi/templates/login.html HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:04:05] "GET /edit/nyapi/templates/register.html HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:04:44] "POST /edit/nyapi/templates/register.html HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 17:04:44] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:05:04] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:05:06] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:05:11] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 17:05:11] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:51:00] "GET /edit/nyapi/static/favicon.ico HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 45, in edit_file
+    content = f.read()
+              ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 22: invalid start byte
+192.168.1.25 - - [12/Mar/2025 17:51:00] "GET /edit/nyapi/static/favicon.ico?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:51:00] "GET /edit/nyapi/static/favicon.ico?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:51:00] "GET /edit/nyapi/static/favicon.ico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:51:04] "GET /edit/nyapi/static/logo.png HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 45, in edit_file
+    content = f.read()
+              ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+192.168.1.25 - - [12/Mar/2025 17:51:04] "GET /edit/nyapi/static/logo.png?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:51:04] "GET /edit/nyapi/static/logo.png?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:51:04] "GET /edit/nyapi/static/logo.png?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:52:53] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:52:54] "GET /edit/nyapi/nyapi-env HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/nyapi/nyapi-env'
+192.168.1.25 - - [12/Mar/2025 17:52:54] "GET /edit/nyapi/nyapi-env?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:52:54] "GET /edit/nyapi/nyapi-env?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:52:54] "GET /edit/nyapi/nyapi-env?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:52:56] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:52:57] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:52:58] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:54:59] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [12/Mar/2025 17:55:00] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:55:02] "GET /browse/.local HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:55:09] "GET /edit/.local/share HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/.local/share'
+192.168.1.25 - - [12/Mar/2025 17:55:09] "GET /edit/.local/share?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:55:09] "GET /edit/.local/share?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:55:09] "GET /edit/.local/share?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:57:51] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:57:59] "GET /edit/nyapi/templates/login.html HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:58:01] "GET /edit/nyapi/templates/register.html HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:58:14] "GET /browse/.vnc HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:58:15] "GET /edit/.vnc/raspberrypi:2.log HTTP/1.1" 200 -
+192.168.1.25 - - [12/Mar/2025 17:58:18] "GET /edit/.vnc/raspberrypi:1.pid HTTP/1.1" 200 -
+ * Detected change in '/home/gianni/.local/lib/python3.11/site-packages/typing_extensions.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 673-723-667
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.34:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 699-368-307
+192.168.1.25 - - [13/Mar/2025 15:56:34] "GET / HTTP/1.1" 302 -
+192.168.1.25 - - [13/Mar/2025 15:56:34] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:56:34] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.25 - - [13/Mar/2025 15:56:54] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:57:22] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:57:51] "GET /edit/nyapi/app.py.save HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:58:43] "GET /edit/nyapi/nyapi-env HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/nyapi/nyapi-env'
+192.168.1.25 - - [13/Mar/2025 15:58:44] "GET /edit/nyapi/nyapi-env?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:58:44] "GET /edit/nyapi/nyapi-env?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:58:49] "GET /browse/nyapi/instance HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:58:51] "GET /edit/nyapi/instance/nyapi.db HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 45, in edit_file
+    content = f.read()
+              ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf8 in position 102: invalid start byte
+192.168.1.25 - - [13/Mar/2025 15:58:51] "GET /edit/nyapi/instance/nyapi.db?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:58:51] "GET /edit/nyapi/instance/nyapi.db?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:58:54] "GET /edit/nyapi/instance/nyapi.db?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:59:33] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:59:35] "GET /browse/nyapi/instance HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:59:36] "GET /edit/nyapi/instance/nyapi.txt HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 45, in edit_file
+    content = f.read()
+              ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf8 in position 102: invalid start byte
+192.168.1.25 - - [13/Mar/2025 15:59:36] "GET /edit/nyapi/instance/nyapi.txt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:59:36] "GET /edit/nyapi/instance/nyapi.txt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:59:36] "GET /edit/nyapi/instance/nyapi.txt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 15:59:52] "GET /edit/nyapi/instance/nyapi.txt HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 45, in edit_file
+    content = f.read()
+              ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf8 in position 102: invalid start byte
+192.168.1.25 - - [13/Mar/2025 15:59:52] "GET /edit/nyapi/instance/nyapi.txt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+192.168.1.25 - - [13/Mar/2025 15:59:52] "GET /edit/nyapi/instance/nyapi.txt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+192.168.1.25 - - [13/Mar/2025 16:00:31] "GET /edit/nyapi/instance/nyapi.txt HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gianni/nyapi/instance/nyapi.txt'
+192.168.1.25 - - [13/Mar/2025 16:00:31] "GET /edit/nyapi/instance/nyapi.txt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+192.168.1.25 - - [13/Mar/2025 16:00:31] "GET /edit/nyapi/instance/nyapi.txt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+192.168.1.25 - - [13/Mar/2025 16:00:31] "GET /edit/nyapi/instance/nyapi.txt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 16:00:32] "GET /browse/nyapi/instance HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 16:00:34] "GET /edit/nyapi/instance/nyapi.db HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/.local/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 45, in edit_file
+    content = f.read()
+              ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf8 in position 102: invalid start byte
+192.168.1.25 - - [13/Mar/2025 16:00:34] "GET /edit/nyapi/instance/nyapi.db?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+192.168.1.25 - - [13/Mar/2025 16:00:34] "GET /edit/nyapi/instance/nyapi.db?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+192.168.1.25 - - [13/Mar/2025 16:00:34] "GET /edit/nyapi/instance/nyapi.db?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 16:06:15] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 16:06:17] "GET /edit/nyapi/templates/index.html HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 16:06:34] "GET /edit/nyapi/templates/login.html HTTP/1.1" 200 -
+192.168.1.25 - - [13/Mar/2025 16:08:02] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 835-611-791
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 835-611-791
+192.168.1.54 - - [21/Mar/2025 12:31:56] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:32:01] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:34:01] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:34:08] "GET /edit/nyapi/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:34:34] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:36:03] "POST /edit/nyapi/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 12:36:03] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:44:30] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:47:37] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:47:38] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:48:47] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 12:48:47] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:54:25] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:55:29] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 12:55:29] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:55:47] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:55:57] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 12:55:57] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:59:12] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 12:59:31] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 12:59:31] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:00:40] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:04:33] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 13:04:33] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:05:40] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:05:42] "GET /edit/nyapi/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:07:20] "GET /edit/nyapi/static HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/nyapi/static'
+192.168.1.54 - - [21/Mar/2025 13:07:20] "GET /edit/nyapi/static?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:07:20] "GET /edit/nyapi/static?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:07:20] "GET /edit/nyapi/static?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:07:23] "GET /edit/nyapi/static/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/nyapi/static/'
+192.168.1.54 - - [21/Mar/2025 13:07:23] "GET /edit/nyapi/static/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:07:23] "GET /edit/nyapi/static/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:07:23] "GET /edit/nyapi/static/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:07:29] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:07:30] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:07:38] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 13:07:38] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:18:18] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 13:18:26] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 13:18:26] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:24:08] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:24:08] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:24:08] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [21/Mar/2025 19:24:14] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:24:16] "GET /edit/nyapi/templates/login.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:24:50] "POST /edit/nyapi/templates/login.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:24:50] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:25:00] "GET /edit/nyapi/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:25:24] "POST /edit/nyapi/templates/explore.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:25:24] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:25:36] "GET /edit/nyapi/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:26:14] "GET /edit/nyapi/templates/register.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:26:27] "POST /edit/nyapi/templates/register.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:26:27] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:26:38] "GET /edit/nyapi/templates/register.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:26:46] "POST /edit/nyapi/templates/register.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:26:46] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:26:55] "GET /edit/nyapi/templates/partials HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/nyapi/templates/partials'
+192.168.1.54 - - [21/Mar/2025 19:26:55] "GET /edit/nyapi/templates/partials?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:26:55] "GET /edit/nyapi/templates/partials?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:26:55] "GET /edit/nyapi/templates/partials?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:26:58] "GET /edit/nyapi/templates/profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:27:19] "POST /edit/nyapi/templates/profile.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:27:19] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:27:36] "GET /edit/nyapi/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:27:52] "POST /edit/nyapi/templates/dashboard.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:27:52] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:27:54] "GET /edit/nyapi/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:28:00] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:28:01] "GET /edit/nyapi/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:28:22] "POST /edit/nyapi/templates/view_post.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:28:22] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:28:28] "GET /browse/nyapi/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:28:30] "GET /edit/nyapi/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:28:42] "POST /edit/nyapi/templates/partials/posts.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:28:42] "GET /browse/nyapi/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:28:56] "GET /edit/nyapi/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:29:02] "POST /edit/nyapi/templates/explore.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:29:02] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:29:18] "GET /edit/nyapi/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:30:34] "GET /edit/nyapi/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:31:06] "POST /edit/nyapi/templates/view_post.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:31:06] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:31:08] "GET /edit/nyapi/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:31:16] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:31:26] "GET /edit/nyapi/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:31:43] "GET /browse/nyapi/ HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:31:46] "GET /edit/nyapi//app.py HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:32:14] "GET /browse/nyapi/ HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:32:19] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:32:22] "GET /edit/nyapi/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:32:34] "GET /browse/nyapi/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:32:36] "GET /edit/nyapi/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:32:50] "POST /edit/nyapi/templates/partials/posts.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:32:50] "GET /browse/nyapi/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:35:01] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:35:01] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:35:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [21/Mar/2025 19:35:06] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:35:09] "GET /edit/nyapi/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:35:36] "POST /edit/nyapi/templates/dashboard.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:35:36] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:35:37] "GET /edit/nyapi/templates/profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:35:55] "POST /edit/nyapi/templates/profile.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:35:55] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:36:43] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:36:45] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:39:36] "POST /edit/nyapi/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 19:39:36] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:45:27] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:45:27] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [21/Mar/2025 19:45:29] "GET /edit/nyapi/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:46:47] "GET /edit/nyapi/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/nyapi/'
+192.168.1.54 - - [21/Mar/2025 19:46:47] "GET /edit/nyapi/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:46:47] "GET /edit/nyapi/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:46:47] "GET /edit/nyapi/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:46:51] "GET /browse/nyapi/ HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:46:53] "GET /edit/nyapi//app.py HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:47:24] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [21/Mar/2025 19:47:27] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:47:30] "GET /edit/nyapi/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:48:30] "GET /edit/nyapi/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 19:49:02] "GET /edit/nyapi/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 20:37:03] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 20:37:03] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 20:37:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [21/Mar/2025 20:37:07] "GET /browse/templates HTTP/1.1" 404 -
+192.168.1.54 - - [21/Mar/2025 20:37:11] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 20:37:20] "GET /browse/nyapi/ HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 20:39:50] "GET /edit/nyapi//app.py HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 20:40:18] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 20:40:21] "GET /edit/nyapi/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 21:07:28] "GET /edit/nyapi/templates/profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 21:10:14] "GET /edit/nyapi/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 21:10:34] "POST /edit/nyapi/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [21/Mar/2025 21:10:34] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 21:31:33] "GET /browse/nyapi/statiuc HTTP/1.1" 404 -
+192.168.1.54 - - [21/Mar/2025 21:31:35] "GET /browse/nyapi/static HTTP/1.1" 200 -
+192.168.1.54 - - [21/Mar/2025 21:31:37] "GET /edit/nyapi/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 07:54:48] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 07:54:48] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [22/Mar/2025 07:54:52] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 07:56:31] "POST /edit/nyapi/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 07:56:31] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 08:13:57] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 08:13:57] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 08:14:01] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 08:14:03] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 08:15:39] "POST /edit/nyapi/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 08:15:39] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 08:17:19] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 08:17:36] "POST /edit/nyapi/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 08:17:36] "GET /browse/nyapi HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 106-738-815
+192.168.1.54 - - [22/Mar/2025 21:18:16] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 21:18:16] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:18:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [22/Mar/2025 21:18:52] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:18:55] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:24:06] "POST /edit/nyapi/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 21:24:06] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:33:48] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:33:51] "POST /edit/nyapi/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 21:33:51] "GET /browse/nyapi HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:39:52] "GET /browse/nyapi/templates HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:40:00] "GET /edit/nyapi/templates/login.html HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:40:16] "GET /edit/nyapi/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:48:57] "GET /edit/nyapi/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:51:18] "GET /browse/nyapi-clone HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:51:24] "GET /edit/nyapi-clone/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:54:57] "POST /edit/nyapi-clone/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 21:54:57] "GET /browse/nyapi-clone HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:55:44] "GET /browse/nyapi-clone/templates HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:55:45] "GET /edit/nyapi-clone/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:55:48] "POST /edit/nyapi-clone/templates/dashboard.html HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 21:55:48] "GET /browse/nyapi-clone/templates HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 21:56:02] "GET /edit/nyapi-clone/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:00:12] "GET /edit/nyapi-clone/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:00:15] "POST /edit/nyapi-clone/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 22:00:15] "GET /browse/nyapi-clone HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:00:34] "GET /browse/nyapi-clone/templates HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:00:36] "GET /edit/nyapi-clone/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:00:38] "POST /edit/nyapi-clone/templates/dashboard.html HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 22:00:38] "GET /browse/nyapi-clone/templates HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:05:28] "GET /edit/nyapi-clone/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:05:31] "POST /edit/nyapi-clone/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 22:05:31] "GET /browse/nyapi-clone HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:05:38] "GET /browse/nyapi-clone/templates HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:05:39] "GET /edit/nyapi-clone/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 22:05:47] "POST /edit/nyapi-clone/templates/dashboard.html HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 22:05:47] "GET /browse/nyapi-clone/templates HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 23:38:58] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [22/Mar/2025 23:38:58] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 23:39:02] "GET /browse/nyapi-clone HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 23:39:09] "GET /browse/nyapi-clone/templates HTTP/1.1" 200 -
+192.168.1.54 - - [22/Mar/2025 23:39:14] "GET /edit/nyapi-clone/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:27:39] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:27:39] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:27:39] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 09:27:45] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:27:49] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:28:50] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:29:18] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:29:22] "GET /edit/nyapi-futur/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:29:49] "GET /edit/nyapi-futur/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:36:34] "POST /edit/nyapi-futur/templates/explore.html HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:36:34] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:36:45] "GET /edit/nyapi-futur/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:37:21] "POST /edit/nyapi-futur/templates/dashboard.html HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:37:21] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:37:44] "GET /edit/nyapi-futur/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:38:11] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:38:21] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:38:21] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:38:28] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:38:28] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:38:28] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 09:38:31] "GET /browse/nyapi HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 09:38:39] "GET /browse/nyapi-clone/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:38:42] "GET /edit/nyapi-clone/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:38:49] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:38:51] "GET /edit/nyapi-futur/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:38:53] "POST /edit/nyapi-futur/templates/explore.html HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:38:53] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:39:06] "GET /edit/nyapi-futur/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:39:09] "POST /edit/nyapi-futur/templates/explore.html HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:39:09] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:39:18] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:39:20] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:39:30] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:39:30] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:45:40] "GET /edit/nyapi-futur/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:45:44] "GET /browse/nyapi-futur/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:45:47] "GET /edit/nyapi-futur//app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:46:15] "POST /edit/nyapi-futur//app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:46:15] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:48:41] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:48:49] "GET /edit/nyapi-futur/templates/profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:51:17] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:51:20] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:51:20] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:52:09] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:52:11] "GET /edit/nyapi-futur/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:52:23] "POST /edit/nyapi-futur/templates/dashboard.html HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:52:23] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:53:24] "GET /edit/nyapi-futur/templates/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/nyapi-futur/templates/'
+192.168.1.54 - - [23/Mar/2025 09:53:24] "GET /edit/nyapi-futur/templates/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:53:24] "GET /edit/nyapi-futur/templates/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:53:24] "GET /edit/nyapi-futur/templates/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:53:29] "GET /browse/nyapi-futur/templates/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:53:35] "GET /edit/nyapi-futur/templates//view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:54:02] "GET /edit/nyapi-futur/templates//profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:54:23] "GET /browse/nyapi-futur/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:54:25] "GET /edit/nyapi-futur/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:55:55] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:55:56] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 09:56:04] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 09:56:04] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:03:45] "GET /browse/nyapi-clone/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:03:46] "GET /edit/nyapi-clone/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:09:58] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:10:23] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 10:10:23] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:11:00] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:11:01] "GET /edit/nyapi-futur/templates/profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:11:33] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:11:40] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 10:11:40] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:12:38] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:13:22] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 10:13:22] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:20:45] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:20:55] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 10:20:55] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:22:25] "GET /browse/nyapi-futur/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:22:33] "GET /edit/nyapi-futur//app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:23:10] "POST /edit/nyapi-futur//app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 10:23:10] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:40:24] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 10:40:24] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:40:28] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:40:30] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:44:10] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 10:44:10] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:44:34] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:47:55] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 10:47:55] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:58:56] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 10:58:56] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:58:56] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 10:59:00] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:59:04] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 10:59:05] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:00:06] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:00:06] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:01:03] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:01:38] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:01:38] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:05:45] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:05:46] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:05:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 11:07:11] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:07:13] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:07:13] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:08:26] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:09:02] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:09:02] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:09:23] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:09:30] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:09:30] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:10:37] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:10:50] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:10:50] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:11:03] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:11:09] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:11:09] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:12:05] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:15:00] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:15:00] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:18:09] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:18:30] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:18:30] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:19:56] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:20:19] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:20:19] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:23:37] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:23:37] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:23:37] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 11:24:02] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:24:05] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:24:08] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:25:12] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:25:12] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:28:10] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:28:12] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:28:12] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:28:30] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:28:30] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:28:36] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:28:38] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:28:48] "GET /browse/nyapi-futur/templates/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:28:50] "GET /edit/nyapi-futur/templates//index.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:32:39] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:32:40] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 11:32:44] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:32:44] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:57:12] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:57:12] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:57:16] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:57:16] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 11:57:21] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:57:22] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:57:27] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 11:57:27] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:58:23] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 11:58:24] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 12:00:46] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 12:00:46] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:02:12] "GET /browse/templates HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 12:02:20] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:02:23] "GET /edit/nyapi-futur/templates/send_message.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:03:45] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:05:46] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 12:05:46] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:09:15] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:09:44] "POST /edit/nyapi-futur/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 12:09:44] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:10:43] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:46:29] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 12:46:30] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:46:30] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 12:47:10] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:47:11] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 12:47:12] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 12:48:11] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 12:48:11] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:34:54] "GET /nyapi-futur HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 13:35:01] "GET /nyapi-futur HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 13:35:07] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:35:09] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:39:48] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 13:39:48] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:46:06] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:46:08] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:46:58] "GET /edit/templates/explore.html HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gianni/templates/explore.html'
+192.168.1.54 - - [23/Mar/2025 13:46:58] "GET /edit/templates/explore.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:46:58] "GET /edit/templates/explore.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:46:58] "GET /edit/templates/explore.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:47:09] "GET /edit/nyapi-futur/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:48:48] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:52:06] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 13:52:06] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:53:16] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:53:18] "GET /edit/nyapi-futur/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:54:21] "POST /edit/nyapi-futur/templates/view_post.html HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 13:54:21] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:55:51] "GET /edit/nyapi-futur/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:57:07] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:57:08] "GET /edit/nyapi-futur/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 13:57:10] "POST /edit/nyapi-futur/templates/view_post.html HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 13:57:10] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 14:01:14] "GET /edit/nyapi-futur/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 14:01:52] "POST /edit/nyapi-futur/templates/view_post.html HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 14:01:52] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 14:27:09] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 14:27:09] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 14:27:11] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 14:27:42] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 14:27:42] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 14:29:26] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 14:29:28] "GET /edit/nyapi-futur/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 14:29:31] "POST /edit/nyapi-futur/templates/view_post.html HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 14:29:31] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:13:41] "GET /brows/nyapi-futur HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 19:13:41] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 19:13:44] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:13:58] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:17:58] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 19:17:58] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:19:11] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:20:01] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 19:20:01] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:22:35] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:22:37] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 19:22:37] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:23:47] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:24:54] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 19:24:54] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 19:25:30] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:01:25] "GET /browse/nypi-futur HTTP/1.1" 404 -
+192.168.1.54 - - [23/Mar/2025 20:01:33] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:01:35] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:02:36] "POST /edit/nyapi-futur/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [23/Mar/2025 20:02:36] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:11:27] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:11:31] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:11:33] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:11:49] "GET /edit/nyapi-futur/ HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/gianni/nyapi-futur/'
+192.168.1.54 - - [23/Mar/2025 20:11:49] "GET /edit/nyapi-futur/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:11:49] "GET /edit/nyapi-futur/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:11:49] "GET /edit/nyapi-futur/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.54 - - [23/Mar/2025 20:11:55] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 13:09:20] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 13:09:20] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [24/Mar/2025 13:09:23] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 13:17:23] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 13:17:27] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 13:17:32] "GET /edit/nyapi-futur/templates/tos.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 13:18:29] "POST /edit/nyapi-futur/templates/tos.html HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 13:18:29] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 14:30:14] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 14:30:17] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 14:30:27] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 14:30:27] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:33:26] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:33:26] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:33:48] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:33:50] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:34:04] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:34:11] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:34:16] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:34:17] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:34:29] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:34:29] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:34:33] "GET /browse/nyapi-search/ HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:34:34] "GET /edit/nyapi-search//app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:35:22] "POST /edit/nyapi-search//app.py HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:35:22] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:41:06] "GET /edit/nyapi-search/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:41:25] "GET /browse/nyapi-search/templates/ HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:41:35] "GET /edit/nyapi-search/templates//view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:41:41] "GET /browse/nyapi-search/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:42:05] "GET /edit/nyapi-search/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:43:30] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:43:34] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:43:34] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:43:36] "GET /edit/nyapi-search/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:45:34] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:45:39] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:45:39] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:04] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:08] "GET /browse/nyapi-search/ HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:09] "GET /edit/nyapi-search//app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:12] "POST /edit/nyapi-search//app.py HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:48:12] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:20] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:23] "GET /edit/nyapi-search/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:25] "POST /edit/nyapi-search/templates/view_post.html HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:48:25] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:33] "GET /browse/nyapi-search/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:35] "GET /edit/nyapi-search/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:37] "POST /edit/nyapi-search/templates/partials/posts.html HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:48:37] "GET /browse/nyapi-search/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:48] "GET /browse/nyapi-search/static/ HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:49] "GET /edit/nyapi-search/static//style.css HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:48:54] "POST /edit/nyapi-search/static//style.css HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:48:54] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:49:23] "GET /browse/nyapi-search/ HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:49:25] "GET /edit/nyapi-search//app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:50:06] "GET /edit/nyapi-search/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:51:23] "POST /edit/nyapi-search/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:51:23] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:53:29] "GET /edit/nyapi-search/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:55:19] "GET /edit/nyapi-futur/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:56:21] "GET /edit/nyapi-search/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:58:16] "POST /edit/nyapi-search/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 15:58:16] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 15:59:07] "GET /edit/nyapi-search/app.py HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:00:13] "POST /edit/nyapi-search/app.py HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 16:00:13] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:44:00] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:44:01] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [24/Mar/2025 16:44:08] "GET /browse/nyapi-search/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:44:52] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:44:53] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:45:01] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 16:45:01] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:45:35] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:45:41] "GET /edit/nyapi-search/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:46:07] "GET /edit/nyapi-search/templates/partials/post.html HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2548, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gianni/Intranet/script.py", line 44, in edit_file
+    with open(full_path, 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gianni/nyapi-search/templates/partials/post.html'
+192.168.1.54 - - [24/Mar/2025 16:46:07] "GET /edit/nyapi-search/templates/partials/post.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:46:07] "GET /edit/nyapi-search/templates/partials/post.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:46:07] "GET /edit/nyapi-search/templates/partials/post.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:46:10] "GET /edit/nyapi-search/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:48:22] "POST /edit/nyapi-search/templates/view_post.html HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 16:48:22] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:48:28] "GET /browse/nyapi-search/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:48:30] "GET /edit/nyapi-search/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:48:36] "POST /edit/nyapi-search/templates/partials/posts.html HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 16:48:36] "GET /browse/nyapi-search/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:48:38] "GET /edit/nyapi-search/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:49:08] "GET /edit/nyapi-futur/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:49:21] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:49:29] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [24/Mar/2025 16:49:29] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [24/Mar/2025 16:53:56] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:52:42] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 08:52:42] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:52:42] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [25/Mar/2025 08:52:48] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:52:54] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:53:09] "GET /edit/nyapi-search/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:54:06] "GET /edit/nyapi-search/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:54:25] "GET /edit/nyapi-search/templates/profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:55:47] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:55:53] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 08:55:53] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:56:34] "GET /edit/nyapi-search/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:56:36] "POST /edit/nyapi-search/templates/explore.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 08:56:36] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:57:00] "GET /edit/nyapi-search/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:57:18] "POST /edit/nyapi-search/templates/dashboard.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 08:57:18] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:57:49] "GET /edit/nyapi-search/templates/profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 08:57:56] "POST /edit/nyapi-search/templates/profile.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 08:57:56] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 09:03:55] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 09:04:30] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+Permission denied
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.1.39:80
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 113-453-419
+192.168.1.54 - - [25/Mar/2025 15:50:17] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 15:50:17] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:50:17] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [25/Mar/2025 15:50:36] "GET /browse/gianni HTTP/1.1" 404 -
+192.168.1.54 - - [25/Mar/2025 15:50:42] "GET /browse/nyapi-search HTTP/1.1" 404 -
+192.168.1.54 - - [25/Mar/2025 15:50:47] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:50:47] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:50:48] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:50:48] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:50:49] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:50:49] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:50:49] "GET /browse/ HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 244-546-666
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 244-546-666
+192.168.1.54 - - [25/Mar/2025 15:52:19] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:52:25] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:53:20] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:53:27] "GET /edit/nyapi-search/templates/login.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:53:40] "GET /browse/nyapi-search/templates/partials HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:53:41] "GET /edit/nyapi-search/templates/partials/posts.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:54:19] "GET /edit/nyapi-search/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:54:37] "GET /edit/nyapi-search/templates/tos.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:54:48] "GET /edit/nyapi-search/templates/register.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:55:12] "GET /edit/nyapi-search/templates/messages.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:55:25] "GET /edit/nyapi-search/templates/profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:55:42] "GET /edit/nyapi-search/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:56:01] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:56:12] "GET /edit/nyapi-search/templates/send_message.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:56:30] "GET /edit/nyapi-search/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:56:46] "GET /edit/nyapi-search/templates/profile.html.save HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:56:49] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 15:56:51] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:11:34] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:11:34] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:11:38] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:11:41] "GET /browse/nyapi-search/static$ HTTP/1.1" 404 -
+192.168.1.54 - - [25/Mar/2025 16:11:43] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:11:44] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:11:46] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:11:46] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:11:55] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:11:59] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:12:03] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:12:03] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:12:11] "GET /edit/nyapi-search/templates/login.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:12:13] "POST /edit/nyapi-search/templates/login.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:12:13] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:12:23] "GET /edit/nyapi-search/templates/register.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:12:31] "POST /edit/nyapi-search/templates/register.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:12:31] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:12:37] "GET /edit/nyapi-search/templates/explore.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:12:39] "POST /edit/nyapi-search/templates/explore.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:12:39] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:12:45] "GET /edit/nyapi-search/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:12:47] "POST /edit/nyapi-search/templates/dashboard.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:12:47] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:13:21] "GET /edit/nyapi-search/templates/profile.html.save HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:13:26] "GET /edit/nyapi-search/templates/profile.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:13:28] "POST /edit/nyapi-search/templates/profile.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:13:28] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:13:39] "GET /edit/nyapi-search/templates/messages.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:14:02] "POST /edit/nyapi-search/templates/messages.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:14:02] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:14:03] "GET /edit/nyapi-search/templates/send_message.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:14:38] "POST /edit/nyapi-search/templates/send_message.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:14:38] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:14:59] "GET /edit/nyapi-search/templates/view_post.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:15:01] "POST /edit/nyapi-search/templates/view_post.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:15:01] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:15:10] "GET /edit/nyapi-search/templates/tos.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:15:40] "POST /edit/nyapi-search/templates/tos.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:15:40] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:17:45] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:20:25] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:26:43] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:26:43] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:27:46] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:27:48] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:27:48] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:29:34] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:29:42] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:29:42] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:30:06] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:30:10] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:30:10] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:30:22] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:30:28] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:30:28] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:30:51] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:31:05] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:31:07] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:31:10] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:31:10] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:32:00] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:33:00] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:33:04] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:33:04] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:33:11] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:33:14] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:33:14] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:33:53] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 16:33:56] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 16:33:57] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:42:17] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 22:42:17] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:42:17] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [25/Mar/2025 22:42:22] "GET /browse/nyapi-futur HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:42:25] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:42:31] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:42:35] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:42:37] "GET /edit/nyapi-futur/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:45:02] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:48:21] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 22:48:21] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:50:09] "GET /browse/nyapi-futur/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:50:10] "GET /edit/nyapi-futur/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:50:51] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:52:19] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:53:25] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 22:53:25] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:54:43] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:54:46] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 22:54:46] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:58:45] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:58:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [25/Mar/2025 22:58:47] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:58:49] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 22:58:49] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 22:59:04] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:01:00] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:02:53] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:03:25] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:03:25] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:03:37] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:04:10] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:04:10] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:04:24] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:04:37] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:04:37] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:04:41] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:05:27] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:05:27] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:06:07] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:06:23] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:06:23] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:06:29] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:06:46] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:06:46] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:07:09] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:07:48] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:07:48] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:08:16] "GET /edit/nyapi-search/templates/dashboard.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:08:18] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:08:20] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:08:20] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:08:33] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:08:54] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:08:54] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:08:58] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:09:15] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:09:15] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:09:29] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:09:37] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:09:37] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:09:43] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:09:45] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:10:12] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:10:21] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:10:21] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:10:33] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:10:40] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:10:40] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:14:49] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:14:56] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:14:56] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:15:42] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:15:44] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:15:44] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:15:56] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:16:05] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:16:05] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:16:37] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:16:42] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:16:42] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:17:02] "GET /browse/nyapi-futur/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:17:04] "GET /edit/nyapi-futur/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:17:17] "GET /edit/nyapi-search/templates/index.html HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:17:25] "POST /edit/nyapi-search/templates/index.html HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:17:25] "GET /browse/nyapi-search/templates HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:18:02] "GET /browse/nyapi-search/satic HTTP/1.1" 404 -
+192.168.1.54 - - [25/Mar/2025 23:18:07] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:18:08] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:21:05] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:23:37] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:23:37] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:24:50] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:26:34] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:26:34] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:27:05] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:27:10] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:27:10] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:27:22] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:27:30] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:27:30] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:27:39] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:27:43] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:27:43] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:28:08] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:29:36] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [25/Mar/2025 23:29:36] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [25/Mar/2025 23:30:27] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:31:28] "GET / HTTP/1.1" 302 -
+192.168.1.54 - - [27/Mar/2025 12:31:28] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:31:28] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.54 - - [27/Mar/2025 12:31:32] "GET /browse/nyapi-search HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:31:34] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:31:36] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:32:29] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [27/Mar/2025 12:32:29] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:32:52] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:32:58] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [27/Mar/2025 12:32:58] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:34:33] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:34:39] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [27/Mar/2025 12:34:39] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:34:51] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:34:56] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [27/Mar/2025 12:34:56] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:35:39] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:36:09] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [27/Mar/2025 12:36:09] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:36:53] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:36:58] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [27/Mar/2025 12:36:58] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:37:21] "GET /edit/nyapi-search/static/style.css HTTP/1.1" 200 -
+192.168.1.54 - - [27/Mar/2025 12:37:27] "POST /edit/nyapi-search/static/style.css HTTP/1.1" 302 -
+192.168.1.54 - - [27/Mar/2025 12:37:27] "GET /browse/nyapi-search/static HTTP/1.1" 200 -
+192.168.1.1 - - [27/Mar/2025 17:02:38] "GET / HTTP/1.1" 302 -
+192.168.1.1 - - [27/Mar/2025 17:02:39] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.1 - - [27/Mar/2025 17:02:39] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.1 - - [27/Mar/2025 17:02:46] "GET /browse/Intranet HTTP/1.1" 200 -
+192.168.1.1 - - [27/Mar/2025 17:02:53] "GET /edit/Intranet/script.py HTTP/1.1" 200 -
+192.168.1.1 - - [27/Mar/2025 17:03:47] "POST /edit/Intranet/script.py HTTP/1.1" 302 -
+192.168.1.1 - - [27/Mar/2025 17:03:47] "GET /browse/Intranet HTTP/1.1" 200 -
+ * Detected change in '/home/gianni/Intranet/script.py', reloading
+ * Restarting with stat
+  File "/home/gianni/Intranet/script.py", line 23
+    return redirect(url_for('browse', path=os.path.dirname(path))
+                   ^
+SyntaxError: '(' was never closed
+python3: can't open file '/home/gianni/Intranet/app.py': [Errno 2] No such file or directory
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 388-060-926
+192.168.1.38 - - [14/Apr/2025 19:09:41] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:41] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:41] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:41] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:41] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:41] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:41] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:41] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:42] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:43] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:44] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:45] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:46] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:47] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:47] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:47] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:47] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:47] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:47] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:47] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:47] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:47] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:48] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:49] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:50] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:50] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:50] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:50] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:50] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:50] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:50] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:50] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:51] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:51] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:51] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:51] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:51] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:51] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:51] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:51] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:51] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:52] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:53] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:54] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:55] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:56] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:57] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:58] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:09:59] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:00] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:01] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:02] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:03] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:04] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:05] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:05] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:05] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:05] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:05] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:06] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:06] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:06] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:06] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:06] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:06] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:06] "GET /logout HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:07] "GET / HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:07] "GET / HTTP/1.1" 302 -
+192.168.1.38 - - [14/Apr/2025 19:10:07] "GET /browse/ HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:07] "GET /browse/ HTTP/1.1" 200 -
+192.168.1.38 - - [14/Apr/2025 19:10:11] "GET /browse/envi HTTP/1.1" 401 -
+192.168.1.38 - - [14/Apr/2025 19:10:13] "GET /browse/envi HTTP/1.1" 200 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-189-888
+127.0.0.1 - - [14/Apr/2025 19:14:17] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:14:43] "GET /browse/ HTTP/1.1" 401 -
+ * Detected change in '/home/gianni/Intranet/script.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 142-189-888
+127.0.0.1 - - [14/Apr/2025 19:14:50] "GET /browse/ HTTP/1.1" 401 -
+127.0.0.1 - - [14/Apr/2025 19:14:55] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:14:57] "GET /browse/ HTTP/1.1" 401 -
+127.0.0.1 - - [14/Apr/2025 19:15:30] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:16:05] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:16:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Apr/2025 19:16:15] "GET /browse/nekoverse HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:16:20] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:16:24] "GET /browse/Downloads HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:16:24] "GET /images/kali.jpg HTTP/1.1" 401 -
+127.0.0.1 - - [14/Apr/2025 19:16:24] "GET /images/kali.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [14/Apr/2025 19:16:25] "GET /browse/ HTTP/1.1" 200 -
+ * Detected change in '/home/gianni/Intranet/script.py', reloading
+ * Restarting with stat
+  File "/home/gianni/Intranet/script.py", line 16
+    "Gianni": generate_password_hash("1-ChatonUwU.")  # Remplacez par votre mot de passe
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-362-608
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-362-608
+127.0.0.1 - - [14/Apr/2025 19:28:14] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:28:19] "POST /login HTTP/1.1" 401 -
+127.0.0.1 - - [14/Apr/2025 19:28:26] "POST /login HTTP/1.1" 401 -
+127.0.0.1 - - [14/Apr/2025 19:28:46] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:28:46] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:28:46] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:28:56] "GET /browse/starkot HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:29:02] "GET /browse/starkot/teplates HTTP/1.1" 404 -
+127.0.0.1 - - [14/Apr/2025 19:29:08] "GET /browse/starkot/templates HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:29:10] "GET /edit/starkot/templates/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:29:13] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:29:13] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:29:16] "GET /browse/starkot/templates HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:29:16] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:29:17] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:29:28] "GET /browse/starkot/templates HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:29:28] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:29:33] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:29:33] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:29:34] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:30:07] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:30:08] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:30:08] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:30:26] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:30:26] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:30:39] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:30:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Apr/2025 19:31:58] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:33:07] "POST /login HTTP/1.1" 401 -
+127.0.0.1 - - [14/Apr/2025 19:33:15] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:33:15] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:33:15] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:33:19] "GET /browse/Downloads HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:33:22] "GET /edit/Downloads/kali.jpg HTTP/1.1" 403 -
+ * Detected change in '/home/gianni/Intranet/script.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-362-608
+ * Detected change in '/home/gianni/Intranet/script.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 102-362-608
+127.0.0.1 - - [14/Apr/2025 19:45:30] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:45:30] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:45:32] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:45:33] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:46:29] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:46:29] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:46:29] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:47:40] "GET /browse/LOCDLR HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:52:34] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:52:34] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:52:41] "GET /browse/allyum HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:53:23] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:53:23] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:59:45] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:59:46] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 19:59:46] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Apr/2025 19:59:55] "POST /login HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:59:55] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 19:59:56] "GET /browse/ HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 20:00:00] "GET /browse/Pynia HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 20:00:02] "GET /edit/Pynia/requirements.txt HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 20:00:11] "GET /browse/starkot HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 20:00:14] "GET /browse/starkot/templates HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 20:00:15] "GET /edit/starkot/templates/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 20:00:28] "GET /logout HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 20:00:28] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 20:00:36] "POST /login HTTP/1.1" 401 -
+127.0.0.1 - - [14/Apr/2025 20:00:42] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 20:00:42] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 20:12:44] "GET /browse/ HTTP/1.1" 302 -
+127.0.0.1 - - [14/Apr/2025 20:12:44] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [14/Apr/2025 20:12:47] "POST /login HTTP/1.1" 401 -
+127.0.0.1 - - [14/Apr/2025 20:12:50] "POST /login HTTP/1.1" 401 -
+ * Serving Flask app 'script'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8084
+ * Running on http://192.168.1.39:8084
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 132-554-195
+127.0.0.1 - - [15/Apr/2025 14:15:32] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2025 14:15:32] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2025 14:15:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Apr/2025 14:59:52] "GET /browse/ HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2025 14:59:52] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2025 14:59:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [15/Apr/2025 15:56:22] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [15/Apr/2025 15:56:23] "GET /login HTTP/1.1" 200 -
+127.0.0.1 - - [15/Apr/2025 15:56:23] "GET /favicon.ico HTTP/1.1" 404 -

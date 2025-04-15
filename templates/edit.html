@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Édition de : {{ filename }}</h2>
+    
+    <form method="post">
+        <textarea name="content">{{ content }}</textarea>
+        <div style="margin-top: 10px;">
+            <button type="submit" class="button">Enregistrer</button>
+            <a href="{{ url_for('browse', path=os.path.dirname(path)) }}" class="button" style="background: #ccc; color: black;">Annuler</a>
+        </div>
+    </form>
+{% endblock %}

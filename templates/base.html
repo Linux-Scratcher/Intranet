@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de Fichiers</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { display: flex; justify-content: space-between; margin-bottom: 20px; }
+        .user-info { background: #eee; padding: 8px 15px; border-radius: 20px; }
+        a { text-decoration: none; color: #06c; }
+        ul { list-style: none; padding: 0; }
+        li { padding: 5px 0; }
+        textarea { width: 100%; height: 60vh; font-family: monospace; }
+        .button { padding: 5px 10px; background: #06c; color: white; border: none; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Gestionnaire de Fichiers</h1>
+        <div class="user-info">
+            Connecté en tant que <strong>{{ username }}</strong> | 
+            <a href="{{ url_for('logout') }}">Déconnexion</a>
+        </div>
+    </div>
+    {% block content %}{% endblock %}
+</body>
+</html>
