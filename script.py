@@ -12,7 +12,7 @@ PICTURES_DIR = os.path.expanduser("~/Pictures")
 
 # Utilisateur et mot de passe (à changer en production !)
 USER_CREDENTIALS = {
-    "Prodadmin": generate_password_hash("Fish123")  # Mot de passe : admin123
+    "admin": generate_password_hash("admin")  # Mot de passe : admin123
 }
 
 # Fonction de vérification de sécurité
